@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -216,3 +217,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GroundingDINO clon local
+GroundingDINO/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# datasets (MUY IMPORTANTE)
+dataset/
+database/
+
+# modelos
+models/
+*.pth
+*.pt
+
+# outputs
+runs/
+output/
+dataset/tagged_images/
